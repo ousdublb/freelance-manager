@@ -39,8 +39,8 @@ Architecture MVC en PHP procédural
 ### **Tableau de Bord**
 - Statistiques globales :
   - Nombre total de projets.
-  - Projets en cours vs terminés.
-  - Tâches restantes vs accomplies.
+  - Projets en cours.
+  - Tâches restantes.
 
 - Barre de recherche.
 
