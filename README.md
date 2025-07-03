@@ -11,11 +11,38 @@ Interface responsive (Bootstrap 5)
 
 Architecture MVC en PHP procédural
 
-🛠 Prérequis techniques
-PHP 8.0+
+# 📊 Application de Suivi de Projets Freelance
 
-MySQL 5.7+ ou MariaDB 10.3+
+**Application web interne pour organiser et suivre les projets freelance, leurs tâches et clients associés.**
 
-Serveur web (Apache/Nginx)
+---
 
-Composer (pour les dépendances)
+## 🌟 Fonctionnalités (V1)
+
+### **Gestion des Clients**
+- Ajout, modification, suppression et affichage des clients.
+- Champs : Nom, coordonnées.
+- Filtrage par client.
+
+### **Gestion des Projets**
+- Liaison à un client, avec :
+  - Titre, description, date de début.
+  - Statut (en cours / terminé).
+  - Calcul du temps total estimé par projet.
+  - CRUD complet (Create, Read, Update, Delete).
+
+### **Gestion des Tâches**
+- Liaison à un projet, avec :
+  - Nom, durée estimée, état (à faire / en cours / fait).
+- Affichage trié par état.
+
+### **Tableau de Bord**
+- Statistiques globales :
+  - Nombre total de projets.
+  - Projets en cours vs terminés.
+  - Tâches restantes vs accomplies.
+
+- Barre de recherche.
+
+---
+
